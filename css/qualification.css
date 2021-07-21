@@ -1,0 +1,79 @@
+html, body {
+				background-color:black;
+                color:white;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+			.coloroverlay{
+				position:relative;
+				background-color:black;
+				height:100vh;
+				width:100%;
+				top:0;
+				left:0;
+				opacity:0.8;
+			}	
+			.contrast{
+				background-color:black;
+				opacity:0.5;
+			}
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+				
+            }
+			.top-left {
+                position: absolute;
+                left: 10px;
+                top: 18px;
+				
+            }
+
+            .content {
+                text-align: center;
+            }      
+			.abouttitle{
+				    font-size: 40px;
+					color: black;
+					top: 1px;
+					right: 35%;
+
+			}
+			.aboutlinks > a {
+                color: black;
+                padding: 0 12px;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+			.about{
+				font-size: 40px;
+					right: 35%;
+					padding-top:3%;				
+			}
+			.para{
+					color:grey;
+					text-align: center;
+					white-space: pre-wrap;				
+					font-size: 25px;					
+			}	
+			
