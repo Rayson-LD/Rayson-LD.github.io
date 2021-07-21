@@ -58,7 +58,7 @@
     <label for="exampleFormControlTextarea1" style="color:black;font-family: 'Nunito', sans-serif;font-weight:bold;">Message</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
   </div>
-  <button type="submit" class="btn btn-outline-dark" style="margin-left: 41%;">Submit</button>
+  <button type="submit" class="btn btn-outline-dark" onClick="showMessage()" style="margin-left: 41%;">Submit</button>
 </form>
 			</div>
 			<div class="id id animate__animated animate__fadeInUp" style="background-color:black;">
@@ -75,4 +75,9 @@
 		</div>
 		</div>
     </body>
+ <script>
+            function showMessage() {
+                alert("Email Sent Successfully!!");
+            }
+        </script>
 </html>
